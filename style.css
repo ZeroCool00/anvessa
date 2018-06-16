@@ -7,7 +7,6 @@ body{
   height: 100%;
 }
 .bg {
-
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -21,8 +20,8 @@ body{
     height: 100%;
 }
 
-.container {
-  height: 31%;
+.header-row {
+  height: 30%;
 }
 
 .divLogo {
@@ -38,15 +37,32 @@ body{
   height: auto;
 }
 
+.contactrow {
+  margin-top: 50px;
+}
+
 .about {
   color: #FFF;
   font-size: 22px;
   text-align: center;
 }
 
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   color: white;
+   text-align: center;
+   margin-bottom: 20px;
+}
+
 .contact {
+  margin: 0;
+  padding: 0;
   color: #888;
   font-size: 16px;
+  line-height: 20px;
   text-align: center;
 }
 
@@ -57,22 +73,21 @@ body{
   margin-right: auto;
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
-  background-color: #00dffc;
+  background-color: #6AAFE6;
   color: black;
   border: none;
   width: 170px;
   height: 50px;
-  font-weight: 500;
+  font-weight: bold;
 },
 
 .button1 {
     background-color: #00dffc;
     color: black;
-    border: 2px solid #2b90d9;
 }
 
 .button1:hover {
-    background-color: #2b90d9;
+    background-color: #274c5e;
     color: white;
 }
 
@@ -119,9 +134,4 @@ body{
 .fa-instagram {
   background: #125688;
   color: white;
-}
-
-footer {
-  width: 250px;
-  margin: auto;
 }

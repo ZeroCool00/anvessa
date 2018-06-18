@@ -1,96 +1,77 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Anvessa</title>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link href="style.css" rel="stylesheet" >
-  </head>
+<html>
+<title>Avnessa</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link href="style.css" rel="stylesheet" >
+<style>
+body,h1 {font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+.bgimg {
+    background-color: #000;
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+</style>
+<body>
+<div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
+  <div class="w3-display-middle">
+    <div class="w3-animate-top divLogo">
+      <img class="imgLogo" src="images/logo_white.png" alt="">
+    </div>
+    <p class="w3-large w3-center">We are building world's first multi-dimensional mobility vehicle</p>
+    <div class="btnSubscribe">
+      <button class="w3-center w3-button subscribe" data-toggle="modal" data-target="#exampleModalCenter">Notify me</button>
+    </div>
+    <hr class="w3-border-grey" style="margin:auto;width:40%">
+    <div class="contact">
+     Contact us <a class="anchor" href="mailto:founders@anvessa.com" target="_blank">founders@anvessa.com</a><br>
+     Careers <a href="mailto:careers@anvessa.com" target="_blank">careers@anvessa.com</a><br>
+     Press Enquiries <a href="mailto:media@anvessa.com" target="_blank">media@anvessa.com</a>
+   </div>
+  </div>
+  <div class="w3-display-bottommiddle w3-padding-large">
+    <a href="#" class="fa fa-facebook"></a>
+    <a href="#" class="fa fa-google"></a>
+    <a href="https://www.linkedin.com/company/anvessa/" target="_blank" class="fa fa-linkedin"></a>
+  </div>
+</div>
 
-  <body class="bg">
-    <div class="container bg_transperent">
-      <div class="row header-row">
-
+<!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Subscribe us</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
       </div>
-      <div class="row">
-        <div class="col-md-12">
-          <div class="divLogo">
-            <img class="imgLogo" src="images/logo_white.png" alt="">
-
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <input type="text" class="form-control" id="recipient-name" placeholder="Enter email">
           </div>
-        </div>
-        <div class="col-md-12 text-center about">
-          We are building world's first multi-dimensional mobility vehicle
-        </div>
-        <div class="col-md-12">
-        <div class="subscribe">
-          <button class="btn btnSubscribe button1" data-toggle="modal" data-target="#exampleModalCenter">Notify me</button>
-          <!-- Modal -->
-          <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered" role="document">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="exampleModalLongTitle">Subscribe us</h5>
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                  </button>
-                </div>
-                <div class="modal-body">
-                  <form>
-                    <div class="form-group">
-                      <input type="text" class="form-control" id="recipient-name" placeholder="Enter email">
-                    </div>
-                  </form>
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                  <button type="button" class="btn btn-primary">Submit</button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- Modal over -->
-        </div>
+        </form>
       </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12 contactrow">
-          <a class="contact" href="mailto:founders@anvessa.com">
-            <p >Contact us - founders@anvessa.com</p>
-          </a>
-        </div>
-        <div class="col-md-12">
-          <a class="contact" href="mailto:careers@anvessa.com">
-            <p>Careers - careers@anvessa.com</p>
-          </a>
-        </div>
-        <div class="col-md-12">
-          <a class="contact" href="mailto:media@anvessa.com">
-            <p>Press Enquiries - media@anvessa.com</p>
-          </a>
-        </div>
-
-      </div>
-      <div class=" footer row">
-          <div class="col-md-12 text-center">
-            <a href="#" class="fa fa-facebook"></a>
-            <a href="#" class="fa fa-twitter"></a>
-            <a href="#" class="fa fa-google"></a>
-            <a href="https://www.linkedin.com/company/anvessa/" target="_blank" class="fa fa-linkedin"></a>
-            <a href="#" class="fa fa-youtube"></a>
-            <a href="#" class="fa fa-instagram"></a>
-          </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Submit</button>
       </div>
     </div>
   </div>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  </body>
+</div>
+<!-- Modal over -->
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
 </html>

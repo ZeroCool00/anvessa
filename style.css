@@ -20,6 +20,23 @@
   height: auto;
 }
 
+
+.inner1 {
+  display: block;
+  margin: 0 auto;
+  border: 1px solid white;
+}
+
+.inner2 {
+  float: left;
+  clear: left;
+}
+
+p {
+  text-align: center;
+}
+
+
 .btnSubscribe {
   padding-top: 20px;
   padding-bottom: 20px;
